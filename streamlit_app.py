@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain_openai import ChatOpenAI
-from langchain.chains import ConversationChain 
+from langchain.chains.retrieval_qa import ConversationChain 
 from langchain.prompts import ChatPromptTemplate,MessagesPlaceholder
 from langchain.memory import ConversationBufferMemory
 st.title("学习助手")

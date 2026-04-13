@@ -1,8 +1,8 @@
 import streamlit as st
 from langchain_openai import ChatOpenAI
 from langchain_classic.chains import ConversationChain 
-from langchain.prompts import ChatPromptTemplate,MessagesPlaceholder
-from langchain.memory import ConversationBufferMemory
+from langchain_classic.prompts import ChatPromptTemplate,MessagesPlaceholder
+from langchain_classic.memory import ConversationBufferMemory
 st.title("学习助手")
 with st.sidebar:
     subject=st.selectbox(
